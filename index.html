@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>5001 Presentation</title>
+		<title>PM System Presentation</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -44,158 +44,27 @@
 			<div class="slides">
 
 				<section>
-					<h2>Collaboration of data Integration and Crowdsourcing </h2>
+					<h1>PM反馈系统串讲 </h1>
 					<h3></h3>
 					<p>
-						<small>Created by <a href="http://twitter.com/hakimel">Joshua Zhao</a> / 29 April 2014</small>
+						<small>Created by <a href="http://twitter.com/hakimel">Joshua Zhao</a> / 12 August 2014</small>
 					</p>
 				</section>
 
-				<section>
-					<h2>Crowdsourcing</h2>
-					<ul>
-					<li>
-						Crowdsourcing is evolving as a distributed problem-solving and production model.						
-					</li>
-					<li>
-						Crowdsourcing utilize “Human Computation” powers to perform computational tasks that are difficult for computers to process.	
-					</li>
-					</ul>
-					<aside class="notes">
-						It first introduced in 2006 obtain large application in industrial area. Then 
-						Crowdsourcing also has the potential to be a problem-solving mechanism for government and nonprofit use. Urban and transit planning are prime areas for crowdsourcing. 
-						Researchers have used crowdsourcing systems (in particular, the Mechanical Turk) to aid with research projects by crowdsourcing some aspects of the research process, such as data collection, parsing, and evaluation. 
-						Artists have also utilized crowdsourcing systems. To leverage the creativity of peoples.
-
-						Image tagging, translation, logo design  one of the most import application is data integration.
-					</aside>
-				</section>
-
-				<section>
-					<img width="1000" height="700" src="./image/8.png" alt="Down arrow"/>
-				</section>
-				<section>
-					<img width="1000" height="700" src="./image/1.png" alt="Down arrow"/>
-				</section>
-
-				<section>
-					<h2>Data Integration</h2>
-					<ul>
-						<li>Data integration involves combining data residing in different sources.</li>
-						<li>The age of big data lead to a rapid increase of number of available datasets and they are often fragmented into different sources. </li>
-					</ul>
-					<aside class="notes">
-					</aside>
-				</section>
-
-				<section>
-					<h2>Motivation</h2>
-					<ul>
-						<li>Preserving all the data would complicates the query processing and increases storage cost.</li>
-						<li>Quality: Removing the uncertainty  may cause information lost.</li>
-					</ul>
-					<aside class="notes">
 				
-					</aside>
+				<section data-transition="linear" data-background-transition="slide">
+					<h3>系统综述</h3>
+					<img width="700" height="600" src="./image/1.png"/>
 				</section>
 
-
-				<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
-					<h2>Schema Matching</h2>
-					<ul>
-						<li>Schema matching is a central challenge for data integration systems.</li>
-					<li>Schema Matching refers to finding correspondences between elements of two given schemas.</li>
-					<li>Schema matching is recognized to be one of the basic operations required by many applications</li>
-					</ul>
-
-					<aside class="notes">
-					A large amount of techniques is proposed to address this problem.  It is still  very difficult to tackle the problem completely by an algorithmic approach.
-Uncertainty is inherent. Sematic ambiguity. 
-					</aside>
+				<section data-transition="linear" data-background-transition="slide">
+					<h3>系统功能</h3>
+					<img width="1000" height="550" src="./image/2.png"/>
 				</section>
-
-				<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
-					<img width="1000" height="600" src="./image/2.png" alt="Down arrow">
-					<p>Schema Matching Example</p>
-				</section>
-
-				<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
-					<img width="1000" height="600" src="./image/3.png" alt="Down arrow">
-				</section>
-
-
-				<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
-					<h2>System Architeture</h2>
-					<img width="1000" height="550" src="./image/4.png"/>
-				</section>
-
-
-				<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
-					<h2>Main Challenges</h2>
-					<ul>
-						<li>Task Design</li>
-						<li>Task Assignment</li>
-						<li>Task Aggregatfion</li>
-					</ul>
-					<aside class="notes">
-				
-					</aside>
-				</section>					
-
-				<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
-					<h2>Task Design</h2>
-					<ul>
-						<li>Possible matching - too large a grain for a crowd</li>
-						<li>Open-ended questions – too difficult for integration</li>
-						<p class="fragment roll-in" font-color="#007777"><em><strong>Correspondence Correctness Question (CCQ), i.e.  Ask the crowd to determine whether a correspondence is correct</em></strong></p>
-						<pre class="fragment">
-<code>
-CCQ: Do you think  (Professor) Name and Prof.name refers to 
-the same concept in the give schemata?
-
-Yes/No</code>
-						</pre>
-
-					</ul>
-					<aside class="notes">
-				
-					</aside>
-				</section>		
-
-				<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
-					<h2>Algorithms</h2>
-					<table>
-						<tr>
-							<td><img width="500" height="500" src="./image/6.png" /></td>
-							<td><img width="500" height="500" src="./image/7.png" /></td>
-						</tr>
-					</table>
-					<aside class="notes">
-				
-					</aside>
-				</section>
-
-				<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
-					<h2>Experiment</h2>
-					<img width="1000" height="550" src="./image/5.png"/>
-				</section>
-
 
 				<section>
-					<section>
-					<h2>Future Works</h2>
-					<ul>
-						<p class="fragment"><li>Multiple Schema Matching</li></p>
-						<p class="fragment"><img width="500" height="500" src="./image/10.png" /></p>
-					</ul>
-					</section>
-					<section>
-					<h2>Future Works</h2>
-					<ul>
-						<li>Entity Resolution</li>
-						<p class="fragment"><img width="600" height="400" src="./image/9.png" /></p>
-					</ul>
-					</section>
+				<h2><a href='http://cq01-2012h1-3-nlptest23.vm.baidu.com:8090/PM/login/login.php'>Demo</a></h2>
+				</section>
 
 				</section>
 				<section>
